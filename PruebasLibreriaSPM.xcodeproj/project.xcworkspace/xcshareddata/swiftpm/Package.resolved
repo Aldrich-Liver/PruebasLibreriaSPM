@@ -1,0 +1,15 @@
+{
+  "originHash" : "e6189c55415edefeb372d45de3df360ded197a73c980054af734f8cece06b1fa",
+  "pins" : [
+    {
+      "identity" : "appointmentschedulerkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Aldrich-Liver/AppointmentSchedulerKit.git",
+      "state" : {
+        "revision" : "a5cd77ef74dfd60138ea8f32c8d114fff2dff06b",
+        "version" : "0.2.5"
+      }
+    }
+  ],
+  "version" : 3
+}

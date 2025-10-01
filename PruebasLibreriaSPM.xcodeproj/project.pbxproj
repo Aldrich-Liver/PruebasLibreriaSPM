@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2DCD63CE2E8DDD1B007856CA /* AppointmentSchedulerSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 2DCD63CD2E8DDD1B007856CA /* AppointmentSchedulerSDK */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		2D99FA852E8AE2C600CEA16F /* PruebasLibreriaSPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebasLibreriaSPM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DCD63CE2E8DDD1B007856CA /* AppointmentSchedulerSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = PruebasLibreriaSPM;
 			packageProductDependencies = (
+				2DCD63CD2E8DDD1B007856CA /* AppointmentSchedulerSDK */,
 			);
 			productName = PruebasLibreriaSPM;
 			productReference = 2D99FA852E8AE2C600CEA16F /* PruebasLibreriaSPM.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 2D99FA7C2E8AE2C600CEA16F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2DCD63CC2E8DDD1B007856CA /* XCRemoteSwiftPackageReference "AppointmentSchedulerKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2D99FA862E8AE2C600CEA16F /* Products */;
 			projectDirPath = "";
@@ -332,6 +341,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2DCD63CC2E8DDD1B007856CA /* XCRemoteSwiftPackageReference "AppointmentSchedulerKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Aldrich-Liver/AppointmentSchedulerKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2DCD63CD2E8DDD1B007856CA /* AppointmentSchedulerSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DCD63CC2E8DDD1B007856CA /* XCRemoteSwiftPackageReference "AppointmentSchedulerKit" */;
+			productName = AppointmentSchedulerSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2D99FA7D2E8AE2C600CEA16F /* Project object */;
 }
